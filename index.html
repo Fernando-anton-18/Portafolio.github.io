@@ -1,93 +1,460 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Título de la página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css" />
+    <title>Portafolio</title>
 
-  </head>
+    <link rel="shortcut icon" href="assets/images/Screenshot_20230605_114329~2.png" type="image/x-icon">
 
-  <body>
+    
 
-    <div class="container">
+    <!-- Librerías -->
 
-      <span class="menu-trigger">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <i class="menu-trigger-bar top"></i>
+    <!-- Hojas de estilo-->
 
-        <i class="menu-trigger-bar middle"></i>
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
 
-        <i class="menu-trigger-bar bottom"></i>
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
 
-      </span>
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
 
-      <span class="close-trigger">
+</head>
 
-        <i class="close-trigger-bar left"></i>
+<body>
 
-        <i class="close-trigger-bar right"></i>
+    <header class="header">
 
-      </span>
+        <img src="./assets/images/1.png" class="logo__header">
 
-      <img class="logo" src="IMG-20230218-WA0226.jpg" />
+        <nav class="nav_menu not-active">
 
-      <div class="inner-container">
+            <a href="#home">Home</a>
 
-        <i class="menu-bg top"></i>
+            <a href="#sobreMi">Sobre mí</a>
 
-        <i class="menu-bg middle"></i>
+            <a href="#habilidades">Habilidad</a>
 
-        <i class="menu-bg bottom"></i>
+            <a href="#formacion">Formación</a>
 
-        <div class="menu-container">
+            <a href="#proyectos">Proyectos</a>
 
-          <ul class="menu">
+            <a href="#contacto">Contacto</a>
 
-            <li>
+        </nav>
 
-              <a href="Parte2/Inicio.html">Inicio</a>
+        <div id="button" class="btn not-active">
 
-            </li>
+            <span></span>
 
-            <li>
+            <span></span>
 
-              <a href="Parte2/regístrate.html">Crear cuenta</a>
-
-            </li>
-
-            <li>
-
-              <a href="Parte2/Proyectos.html">Proyectos</a>
-
-            </li>
-
-            <li>
-
-              <a href="Parte2/Nosotros.html">Nosotros</a>
-
-            </li>
-
-          </ul>
+            <span></span>
 
         </div>
 
-      </div>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+
+        <section class="home" id="home">
+
+            <picture class="container_image-home">
+
+                <img class="image_home" src="./assets/images/3.png">
+
+            </picture>            
+
+            <div class="home_info">
+
+                <div class="container_text-info">
+
+                    <p class="home_text-1">Hola! Soy</p>
+
+                    <p class="home_text-2">Fernando Antón </p>
+
+                </div>
+
+                <div>
+
+                    <p class="home_text-3 text-type">Una persona Ser - Humano .........</p>
+
+                </div>
+
+                <div class="container_parrafo-info">
+
+                    <p>ei saperet necessitatibus suspendisse offendit in adipisci legimus perpetua dicam justo persius vivendo vivamus facilisis accommodare melius class dolor fastidii neglegentur sem persius habitant semper appareat nihil omnesque pericula quot</p>
+
+                </div>
+
+                <div class="container_button">
+
+                        <button class="cv_button">Empezar</button>
+
+                    <a href="#contacto">
+
+                        <button class="contact_button">Contacto</button>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="links">
+
+                <a href="www.github.com">
+
+                    <img src="./assets/images/icon-github.png" class="icon-github">
+
+                </a>
+
+                <a href="www.codepen.com">
+
+                    <img src="./assets/images/icon-codepen.png" class="icon-CodePen">
+
+                </a>
+
+                <a href="www.instagram.com">
+
+                    <img src="./assets/images/icon-instagram.png" class="icon-instagram">
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Sobre mí -->
+
+        <section class="sobreMi" id="sobreMi">
+
+            <h1>Sobre mí</h1>
+
+            <div class="container_content-sobreMi">
+
+                <div class="container_texto-sobreMi">
+
+                    <span class="title_sobreMi">Fernando Antón </span>
+
+                    <span class="texto_sobreMi">ipsum aliquam non aliquam petentium interpretaris purus tota elaboraret ceteros hac scripta iaculis nascetur volumus<br>dis duo definiebas vivamus prompta ipsum parturient utamur venenatis delicata congue erroribus theophrastus cubilia scripserit<br><br>honestatis dolorum necessitatibus brute hendrerit facilisi deserunt accommodare repudiare idque mi non scripserit nostrum cursus mutat vix debet his posuere fugit purus ad persius voluptatum dignissim suas morbi sea</span>
+
+                </div>
+
+                <picture class="container_image-sobreMi" dat>
+
+                    <img class="image_sobreMi" src="./assets/images/2.png">
+
+                </picture>
+
+            </div>
+
+        </section>
+
+        <!-- Habilidades -->
+
+        <section class="habilidades" id="habilidades">
+
+            <h1>Habilidades</h1>
+
+            <div class="cards_container--habilidades">
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/icon-html.png">
+
+                    <p>HTML 5</p>
+
+                </div>
+
+                
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/icon-css.png">
+
+                    <p>CSS 3</p>
+
+                </div>
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/icon-js.png">
+
+                    <p>JavaScript</p>
+
+                </div>
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/icon-python.png">
+
+                    <p>Python</p>
+
+                </div>
+
+                
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/icon-git.png">
+
+                    <p>Git</p>
+
+                </div>
+
+                
+
+                <div class="cards--habilidades">
+
+                    <img src="./assets/images/bash icon.png">
+
+                    <p>Bash</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Formación -->
+
+        <section class="formacion" id="formacion">
+
+            <h1>Formación</h1>
+
+            <div class="cards_container--formacion">
+
+               <div class="cards--formacion">
+
+                    <img class="logo-sena" src="./assets/images/4.png">
+
+                    <div class="container_texto--formacion">
+
+                        <p>Actualización ...</p>
+
+                        <p>2012 - 2017</p>
+
+                    </div>
+
+                </div>
+
+                <div class="cards--formacion">
+
+                    <img class="logo-sena" src="./assets/images/4.png">
+
+                    <div class="container_texto--formacion">
+
+                        <p>Actualización ...</p>
+
+                        <p>2018 - 2022</p>
+
+                    </div>
+
+                </div>
+
+                <div class="cards--formacion">
+
+                    <img class="logo-sena" src="./assets/images/4.png">
+
+                    <div class="container_texto--formacion">
+
+                        <p>Actualización ...</p>
+
+                        <p>Undefined</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Proyectos -->
+
+        <section class="proyectos" id="proyectos">
+
+            <h1>Proyectos</h1>
+
+            <div class="cards_container--proyectos">
+
+                <div class="cards--proyectos card_JuegoAhorcado">
+
+                    <div class="container_imgCard--proyectos">
+
+                        <img src="./assets/images/p1.png">
+
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+
+                        <a href="#proyectos"><h2>Aplicación web</h2></a>
+
+                        <p>occaecat in aliqua in est enim magna laborum eiusmod occaecat exercitation commodo mollit proident adipisicing deserunt officia id Lorem labore</p>
+
+                        </div>
+
+                </div>
+
+                <div class="cards--proyectos card_portafolio">
+
+                    <div class="container_imgCard--proyectos">
+
+                        <img src="./assets/images/p2.png">
+
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+
+                        <a href="#proyectos "><h2>Calculadora</h2></a>
+
+                        <p>incididunt sint labore dolore pariatur laborum commodo sit mollit do nisi officia nostrud nulla mollit nulla anim est nisi et non laboris cupidatat occaecat magna.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="cards--proyectos card_encriptador">
+
+                    <div class="container_imgCard--proyectos">
+
+                        <img src="./assets/images/p3.png">
+
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+
+                        <a href="#proyectos"><h2>Bot Automático</h2></a>
+
+                        <p>culpa laboris irure minim reprehenderit eiusmod laborum non do ipsum deserunt ad ipsum nostrud ut do in id non pariatur occaecat reprehenderit id et consequat veniam laboris est eiusmod ipsum.</p>
+
+                    </div>
+
+                </div>
+
+            </div> 
+
+        </section>
+
+        <!-- Contacto -->
+
+        <section class="contacto" id="contacto">
+
+            <h1 data-section="contacto">Contacto</h1>
+
+            <div class="container_box--contacto">
+
+                <div class="container--contacto">
+
+                    <div class="container_text--contacto">
+
+                        <p data-section="contacto">Completa el formulario y me pondré en contacto contigo lo antes posible.</p>
+
+                    </div>
+
+    
+
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+
+                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
+
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
+
+    
+
+                        <div class="btn_form--contacto">
+
+                            <button id="btn-enviar" type="submit">Enviar</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contianer--footer">
+
+            <div class="container_redes-footer">
+
+                <a href="https://www.facebook.com">
+
+                    <img src="./assets/images/f.webp">
+
+                </a>
+
+                <a href="https://www.WhatsApp.com">
+
+                    <img src="./assets/images/w.png">
+
+                </a>
+
+                <a href="https://www.instagram.com">
+
+                    <img src="./assets/images/i.png">
+
+                </a>
+
+            </div>
+
+            <div class="container_text--footer">
+
+                <span>Copyright © 2023 </span>
+
+                <span>| by</span>
+
+                <span>Fernando Antón</span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+<!-- boton hacia inicio -->
+
+    <div class="go-top-container">
+
+        <div class="go-top-button">
+
+            <i class="fas fa-chevron-up"></i>
+
+        </div>
 
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!-- Archivo js -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="script.js"></script>
+    <!-- Mi script -->
 
-  </body>
+    <script src="./script.js"></script>
+
+</body>
 
 </html>
+
+<link rel="shortcut icon" href="script.js" type="image/x-icon">
+
